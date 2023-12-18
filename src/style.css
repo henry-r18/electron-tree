@@ -1,0 +1,40 @@
+/* @import url('../node_modules/bootstrap/dist/css/bootstrap.min.css'); */
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+@import "/node_modules/bulma-switch/dist/css/bulma-switch.min.css";
+
+html, body {
+  height: 85vh;
+  margin: 0;
+  font-family: 'Fira code', 'Fira Mono', source-code-pro, Menlo, Monaco,
+    Consolas, 'Courier New', monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#app {
+  height: 100%;
+}
+
+.flex-even {
+  flex: 1;
+}
+
+.no-resize {
+  resize: none;
+}
+
+.no-wrap {
+  white-space: nowrap;
+}
+
+.offline {
+  .hide-offline {
+    display: none;
+  }
+}
+
+.online {
+  .hide-online {
+    display: none;
+  }
+}
