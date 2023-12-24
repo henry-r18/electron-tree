@@ -63,7 +63,7 @@ const copyTree = () => {
 
   <footer class="footer level">
     <div class="level-item has-text-centered">
-      <a href="https://gitlab.com/nfriend/tree-online">Based on Tree Online</a>
+      <a href="https://gitlab.com/nfriend/tree-online" target="_blank">Based on Tree Online</a>
       <figure class="image is-32x32">
         <img src="./assets/gitlab-logo.svg">
       </figure>

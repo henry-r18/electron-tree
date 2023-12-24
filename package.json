@@ -5,7 +5,7 @@
   "description": "A simple tool to format graphical directory tree from indented text.",
   "author": "Henry Rosen <herosen@g.ucla.edu>",
   "license": "MIT",
-  "private": true,
+  "private": false,
   "keywords": [
     "electron",
     "rollup",
@@ -26,7 +26,7 @@
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.1.0",
     "electron": "^25.0.1",
-    "electron-builder": "^23.6.0",
+    "electron-builder": "^24.9.1",
     "typescript": "^5.0.2",
     "vite": "^4.1.4",
     "vite-plugin-electron": "^0.11.2",
